@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+
+}
+
+
+.logo {
+    width: 200px;
+    height: 80px;
+    margin-right: 8.3%;
+    
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    padding-top: 40px;
+    background-color: #f0f2f5;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    height: 400px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+    gap: 10px;
+
+}
+
+.login{
+    font-size: 1.2rem;
+    margin: 10px 0;
+    
+}
+
+input{
+    width:85%;
+    height: 50px;
+    border: 2px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: 500px;
+    color: rgba(0,0,0,0.5);
+    outline-style: none;
+}
+
+input:hover{
+    border: 2px solid blue;
+}
+
+button{
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+
+}
+button:hover{
+border: 2px solid rgb(142, 59, 59);
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+}   
+
+.new-account{
+    width: 50%;
+    background-color:rgb(51, 227, 51);
+    font-size: 16px;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
